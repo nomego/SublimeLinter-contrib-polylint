@@ -1,0 +1,10 @@
+SublimeLinter-contrib-polylint
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to polylint.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/nomego/SublimeLinter-contrib-polylint
