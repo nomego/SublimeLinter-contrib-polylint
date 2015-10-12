@@ -1,7 +1,7 @@
 SublimeLinter-contrib-polylint
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-polylint.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-polylint)
+[![Build Status](https://travis-ci.org/nomego/SublimeLinter-contrib-polylint.svg?branch=master)](https://travis-ci.org/nomego/SublimeLinter-contrib-polylint)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [polylint](https://github.com/PolymerLabs/polylint). It will be used with files that have the “html” syntax.
 
