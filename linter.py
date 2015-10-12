@@ -2,8 +2,8 @@
 # linter.py
 # Linter for SublimeLinter3, a code checking framework for Sublime Text 3
 #
-# Written by Patrik,,,
-# Copyright (c) 2015 Patrik,,,
+# Written by Patrik Kullman
+# Copyright (c) 2015 Patrik Kullman
 #
 # License: MIT
 #
@@ -14,9 +14,6 @@ from SublimeLinter.lint import NodeLinter, util
 
 
 class Polylint(NodeLinter):
-
-    """Provides an interface to polylint."""
-
     syntax = ('html')
     cmd = 'polylint --no-recursion -i'
     executable = None
