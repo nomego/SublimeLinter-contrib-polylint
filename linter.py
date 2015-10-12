@@ -14,6 +14,9 @@ from SublimeLinter.lint import NodeLinter, util
 
 
 class Polylint(NodeLinter):
+
+    """Provides an interface to polylint."""
+
     syntax = ('html')
     cmd = 'polylint --no-recursion -i'
     executable = None
