@@ -26,7 +26,6 @@ class Polylint(NodeLinter):
     regex = r'^[^:]*:(?P<line>\d+):(?P<col>\d+)\r?\n\s*(?P<message>.+)$'
     multiline = True
     line_col_base = (1, 1)
-    tempfile_suffix = 'html'
     error_stream = util.STREAM_BOTH
     selectors = {}
     word_re = None
