@@ -18,7 +18,7 @@ class Polylint(NodeLinter):
     """Provides an interface to polylint."""
 
     syntax = ('html', 'html-extended')
-    cmd = ('polylint', '--no-recursion', '-i')
+    cmd = ('polylint', '--no-recursion', '--stdin', '-i', '@')
     executable = None
     version_args = '--version'
     version_re = r'(?P<version>\d+\.\d+\.\d+)'
