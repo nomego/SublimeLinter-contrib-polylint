@@ -1,0 +1,6 @@
+SublimeLinter-contrib-polylint 1.1
+-------------------------------
+
+This version needs polylint 2.7 or later.
+
+# npm update -g polylint
